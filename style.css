@@ -1,0 +1,104 @@
+.bg-image {
+    height: 600px;
+    background-image: url('./Images/photo.jfif');
+    background-size: cover;
+  }
+
+  #bgjumbotron {
+    padding: 30px;
+    background-color: white;
+    opacity: 80%;
+    border-radius: 30px;
+    position: relative;
+    top: 140px;
+  }
+
+  #center {
+    text-align: center;
+  }
+
+  #divideLine {
+    width: 290px;
+    height: 4px;
+    margin-bottom: 10px;
+  }
+
+  .center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .paddingBottom {
+    padding-bottom: 30px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  .column {
+    flex: 25%;
+    max-width: 20%;
+    padding: 0 4px;
+  }
+
+  .column1 {
+    flex: 25%;
+    max-width: 79%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .column1 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .bg-black {
+    height: 600px;
+    background-color: black;
+  }
+
+  #centerLogoDowload {      
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 21%;
+  }
+
+  .inner {
+    overflow: hidden;
+  }
+
+  .inner img {
+    transition: all 1.5s ease;
+  }
+
+  .inner:hover img {
+    transform: scale(1.05);
+  }

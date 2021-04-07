@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <title>Disney App</title>
+   <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_dark@2x-45d70f7dd57b.png" alt="" width="95" height="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#disneyPluslink">DISNEY +</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#shop">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#movies">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#park">Parks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#downloadApp">Download the App</a>
+            </li>
+          </ul>  
+          <form class="row row-cols-lg-auto g-3 align-items-right">
+            <div class="col-md-6">
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="col-md-6">
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+          </form>  
+        </div>
+      </div>
+    </nav>
+    <div class="bg-image" id="home">
+      <div class="container">      
+        <div class="jumbotron" id="bgjumbotron">        
+          <h1 id="center" class="display-3">Discover Disney world with this Website</h1>
+          <p id="center" class="lead">this is a fandom website create for make Experience in Bootstrap</p>
+          <hr class="m-y-2">
+          <p id="center">Want to know more? Join our mailing list!</p> 
+          <div class="input-group flex-nowrap container-xs" id="about">
+            <span class="input-group-text" id="addon-wrapping">@</span>
+            <input type="text" class="form-control" placeholder="Your email" aria-label="Username" aria-describedby="addon-wrapping">
+            <button class="btn btn-primary" type="submit">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container"> 
+      <div class="jumbotron">     
+        <br>   
+        <h1 id="center" class="display-3">About Us</h1>
+        <img class="display-3 img-fluid center-block" src="./Images/divider line.png" id="divideLine">
+        <div id="disneyPluslink"></div>
+        <p id="center" class="lead">The mission of The Walt Disney Company is to entertain, inform and inspire people around the globe through the power of unparalleled storytelling, reflecting the iconic brands, creative minds and innovative technologies that make ours the world’s premier entertainment company.</p>
+      </div>
+    </div>
+    <br>
+    <div class="container inner paddingBottom">      
+      <a href="https://disneyplus.com/?cid=DTCI-Synergy-DDN-Site-Acquisition-UKSustain-GB-DisneyPlus-DisneyPlus-EN-NavLink-Disney.co.uk_Sustain_navbar-NA"><img class="display-3 img-fluid center-block" src="./Images/disney+1.jpg"></a>
+      <div id="shop"></div>
+    </div>
+    <br>
+    <div class="container paddingBottom">
+      <h3 id="center">Disney Shop</h1>
+      <div class="row">
+        <div class="column">
+          <div class="inner">
+            <a href="https://www.shopdisney.co.uk/stitch-mini-bean-bag-412358469550.html?cgid=2000087"><img src="./Images/stich.jpg" class="img-thumbnail"></a>
+          </div>
+          <div class="inner">
+            <a href="https://www.shopdisney.co.uk/disney/movies/raya-and-the-last-dragon?cid=chn%3Aft-grd%3ARaya%3Apcode%3A%3Ahome_+_page-Q221%3A%3A%3A%3Adest&cmp=OTL-DOLUK"><img src="./Images/bimba.jpg" class="img-thumbnail"></a>
+          </div>
+        </div>
+        <div class="column1 inner">
+          <a href="https://www.shopdisney.co.uk/imagination-keys-products?cid=chn%3Aft-grd%3AMKThroughTheYearsKeys%3Apcode%3A%3Ahome_+_page-Q221%3A%3A%3A%3Adest&cmp=OTL-DOLUK"><img src="./Images/key.jpg" class="img-thumbnail"></a>
+        </div>
+        <div id="movies"></div>
+      </div>
+    </div>
+    <br>
+    <div class="container paddingBottom" style="background-color: #F1F2F3; padding-top: 10px;">
+      <p><h2 style="text-align: center;">Movies</h2></p>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="card inner" style="width: 18rem;">
+            <a href="https://disney.co.uk/movies/frozen-2"><img src="./Images/frozen2.jpeg" class="card-img-top" alt="card image cap"></a>
+            <div class="card-body">
+              <h5 class="card-title">Frozen 2</h5>
+            </div>
+          </div>
+        </div>        
+        <div class="col-sm-3">
+          <div class="card inner" style="width: 18rem;">
+            <a href="https://disney.co.uk/movies/raya-and-the-last-dragon"><img src="./Images/raya.jpg" class="card-img-top" alt="card image cap"></a>
+            <div class="card-body">
+              <h5 class="card-title">Raya</h5>
+            </div>
+          </div>   
+        </div>      
+        <div class="col-sm-3">
+          <div class="card inner" style="width: 18rem;">
+            <a href="https://disney.co.uk/movies/soul"><img src="./Images/soul.jpg" class="card-img-top" alt="card image cap"></a>
+            <div class="card-body">
+              <h5 class="card-title">Soul</h5>
+            </div>
+          </div>   
+        </div>
+        <div class="col-sm-3">
+          <div class="card inner" style="width: 18rem;">
+            <a href="https://disney.co.uk/movies/mulan-2020"><img src="./Images/mulan.jpg" class="card-img-top" alt="card image cap"></a>
+            <div class="card-body">
+              <h5 class="card-title">Mulan</h5>
+            </div>
+          </div>   
+        </div>    
+      </div>
+    </div>
+    <div id="park"></div>
+    <br>
+    <p class="paddingBottom"></p>
+    <div class="container paddingBottom" style="padding-top: 2px;background-color: rgb(195, 224, 250);">
+      <p><h2 style="text-align: center;">Parks</h2></p>
+      <div class="row">
+        <div class="col">
+          <div class="card inner" style="width: 550px;margin-right: 35px;">
+            <a href="https://www.disneylandparis.com/en-us/destinations/walt-disney-studios-park/"><img src="./Images/walt-disney-studios.jpg" class="card-img-top" alt="card image cap" style="height: 330px;"></a>
+            <div class="card-body">
+              <h5 class="card-title">Walt Disnet Studios</h5>
+              <p class="card-text">Dive into the breathtaking worlds of Disney and Pixar, where fantastic shows waiting you!</p>
+            </div>
+          </div>   
+        </div>
+        <div class="col">
+          <div class="card inner" style="width: 18rem;">
+            <a href="https://www.disneylandparis.com/en-gb/?ecid=PART_NO_A_3f90e17b-de43-48de-9161-a321dfb1ae32"><img src="./Images/disneylandParis.jpg" class="card-img-top" alt="card image cap"></a>
+            <div class="card-body">
+              <h5 class="card-title">Disneyland Paris</h5>
+              <p class="card-text">Make incredible memories on a magical holiday in 2021.</p>
+            </div>
+          </div>   
+        </div>
+        <div class="col">
+          <div class="card inner" style="width: 18rem;">
+            <a href="https://www.disneypackages.co.uk/?CMP=ILC-WDW_FY21Q2_EMEA_Free-Days-and-Nights_Tra_TWDCEMEA_home_grido_Mickey-and-Minnie-at-Epcot_Image&utm_medium=referral&utm_source=TWDCEMEA&utm_campaign=WDW_EMEA_Free%20Days%20and%20Nights&utm_content=Tra_home_grido_Mickey%20and%20Minnie%20at%20Epcot&utm_term=Image"><img src="./Images/parkNightAndDay.jpeg" class="card-img-top" alt="card image cap"></a>
+            <div class="card-body">
+              <h5 class="card-title">Free Night & Free Days</h5>
+              <p class="card-text">Our best offer for Summer 2021 at Walt Disney World Resort.</p>
+            </div>
+          </div>   
+        </div>
+      </div>
+    </div>
+    <br>
+    <p class="paddingBottom"></p>
+    <div class="bg-black">
+      <div class="container" id="downloadApp">      
+        <div class="jumbotron" id="bgjumbotron">        
+          <h1 id="center" class="display-3">Magic at Your Fingertips</h1>
+          <p id="center" class="lead">Plan and share your Walt Disney World vacation-even purchase <span><br>tickets with the My Disney Experience mobile app.</span></p>
+          <hr class="m-y-2">
+          <div id="centerLogoDowload">           
+            <a href="https://apps.apple.com/app/id547436543"><img src="./Images/iOSDownloadButton.jpg" class="mx-auto d-inline img-fluid"></a>   
+            <a href="https://play.google.com/store/apps/details?id=com.disney.wdw.android&referrer=trackingcode%3Dbfic55wn%26utm_campaign%3DTicket%2520QR%2520Code%26utm_source%3DTickets%26utm_medium%3D%26utm_content%3D%26utm_term%3D"><img src="./Images/GooglePlayDownloadButton.jpg" class="mx-auto d-inline img-fluid"></a>
+          </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </body>
+</html>
